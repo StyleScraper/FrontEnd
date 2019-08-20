@@ -1,0 +1,78 @@
+/*****************************************************************************************/
+/****************************         DEV STYLES        **********************************/
+/*****************************************************************************************/
+#out {
+    left: 2% !important;
+    right: auto !important; }
+
+body.dev .container {
+    background-color: rgba(0, 255, 255, 0.5); }
+
+body.dev .container-fluid {
+    background-color: rgba(127, 255, 212, 0.5); }
+
+body.dev div, body.dev form, body.dev table {
+    outline: 1px solid #783b8e !important; }
+
+body.dev address, body.dev blockquote, body.dev h1, body.dev h2, body.dev h3, body.dev h4, body.dev h5, body.dev h6, body.dev p, body.dev pre {
+    outline: 1px solid deeppink !important; }
+
+#debug {
+    background: #292929;
+    padding: 20px;
+    font-size: 10px;
+    font-family: "Open Sans", Helvetica Neue, Arial, sans-serif;
+    text-align: left;
+    color: #7f7f7f;
+    word-wrap: break-word; }
+#debug h1 {
+    border: 1px solid #7f7f7f;
+    padding: 5px;
+    font-size: 14px; }
+#debug p {
+    border-bottom: 1px solid #7f7f7f;
+    border-right: 1px solid #7f7f7f;
+    border-left: 1px solid #7f7f7f;
+    padding: 5px;
+    margin-bottom: 7px;
+    font-size: 12px; }
+#testoverlay .container {
+    pointer-events: none; }
+
+#testoverlay .gridbrd {
+    background: rgba(255, 20, 147, 0.2);
+    height: 100vh; }
+
+#feDevMenu {
+    position: fixed;
+    padding: 20px;
+    z-index: 9999999999;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    background: white;
+    -webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.75); }
+#feDevMenu * {
+    outline: none !important; }
+#feDevMenu .devSwitch {
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 30px; }
+#feDevMenu .devSwitch i {
+    position: absolute;
+    right: 0; }
+#feDevMenu .devSwitch.off{
+    color: #980000 !important; }
+#feDevMenu .devSwitch.off i:before {
+    color: #980000; }
+#feDevMenu .devSwitch.off i.fa-toggle-on {
+    display: none; }
+#feDevMenu .devSwitch.on {
+    color: limegreen !important; }
+#feDevMenu .devSwitch.on i:before {
+    color: limegreen; }
+#feDevMenu .devSwitch.on i.fa-toggle-off {
+    display: none; }
