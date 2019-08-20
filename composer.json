@@ -1,5 +1,5 @@
 {
-    "name":"FrontEnd",
+    "name":"stylescraper/frontend",
     "version": "1.0.0",
     "description":"little FrontEnd Helper in Javascript (jQuery)",
     "authors" : [
