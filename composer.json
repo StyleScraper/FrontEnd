@@ -1,0 +1,13 @@
+{
+    "name":"FrontEnd",
+    "version": "1.0.0",
+    "description":"little FrontEnd Helper in Javascript (jQuery)",
+    "authors" : [
+        {
+            "name": "Bjoern Liffers",
+            "email": "bad.admin@arcor.de",
+            "homepage": "https://github.com/StyleScraper/FrontEnd#readme",
+            "role": "Developer"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "little frontend development helper in javascript (jQuery)",
+  "main": "js/FrontEnd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StyleScraper/FrontEnd.git"
+  },
+  "author": "Bjoern Liffers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StyleScraper/FrontEnd/issues"
+  },
+  "homepage": "https://github.com/StyleScraper/FrontEnd#readme"
+}
